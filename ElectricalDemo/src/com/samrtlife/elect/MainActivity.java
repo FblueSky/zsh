@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.samrtlife.util.Util;
 
 /***************************/
+/***************************/
 public class MainActivity extends ActionBarActivity {
 
 	private TextView tv_cur_pos;
