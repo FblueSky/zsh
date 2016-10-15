@@ -9,6 +9,8 @@ public class Util {
 	/**
 	 * 当前节点的位置
 	 * return value 0 -8之间表示的位置 -1位读取失败
+	  * return value 0 -8之间表示的位置 -1位读取失败
+	   * return value 0 -8之间表示的位置 -1位读取失败
 	 */
 	public static int getCurPos() {
 
