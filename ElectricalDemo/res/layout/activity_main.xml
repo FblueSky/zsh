@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.samrtlife.elect.MainActivity" >
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前位置："
+        android:textSize="58px" /> 
+        
+         <TextView
+        android:id="@+id/cur_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="64px" />
+    </LinearLayout>
+   
+
+    <Button
+        android:id="@+id/left_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="向左移动"
+        android:textSize="46px" />
+
+    <Button
+        android:id="@+id/right_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="向右移动"
+        android:textSize="46px" />
+
+    <Button
+        android:id="@+id/left_move_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="移动到最左"
+        android:textSize="46px" />
+
+    <Button
+        android:id="@+id/right_move_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="移动到最右"
+        android:textSize="46px" />
+
+</LinearLayout>
